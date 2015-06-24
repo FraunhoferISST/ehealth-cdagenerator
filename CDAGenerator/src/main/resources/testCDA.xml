@@ -1,0 +1,2499 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ClinicalDocument xmlns="urn:hl7-org:v3" classCode="DOCCLIN" moodCode="EVN">
+    <typeId root="2.16.840.1.113883.1.3" extension="POCD_HD000040"/>
+    <id root="c266" extension="2.16.840.1.113883.19.4"/>
+    <code code="11488-4" codeSystem="2.16.840.1.113883.6.1" codeSystemName="LOINC" codeSystemVersion="Consultation note"/>
+    <title>Good Health Clinic Consultation Note</title>
+    <effectiveTime value="201312161830"/>
+    <confidentialityCode code="N" codeSystem="2.16.840.1.113883.5.25"/>
+    <languageCode code="de-DE"/>
+    <setId root="BB35" extension="2.16.840.1.113883.19.7"/>
+    <versionNumber value="1"/>
+    <copyTime value="201316121830"/>
+    <recordTarget typeCode="RCT" contextControlCode="OP">
+        <patientRole classCode="PAT">
+            <id root="2.16.840.1.113883.19.4" extension="c266"/>
+            <addr>
+                <country>Deutschland</country>
+                <city>Düren</city>
+                <postalCode>52351</postalCode>
+                <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+            </addr>
+            <telecom use="WP" value="tel:0241.123456"/>
+            <patient classCode="PSN" determinerCode="INSTANCE">
+                <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                <name>
+                    <given>Test</given>
+                    <family>Test</family>
+                    <suffix>Test</suffix>
+                </name>
+                <administrativeGenderCode code="M"/>
+                <birthTime value="19801301"/>
+                <maritalStatusCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                <religiousAffiliationCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                <raceCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                <ethnicGroupCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                <guardian>
+                    <typeId root="2.16.840.1.113883.1.3" extension="POCD_HD000040"/>
+                    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                    <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                    <addr>
+                        <country>Deutschland</country>
+                        <city>Düren</city>
+                        <postalCode>52351</postalCode>
+                        <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                    </addr>
+                    <telecom use="WP" value="tel:0241.123456"/>
+                    <guardianOrganization classCode="ORG" determinerCode="INSTANCE">
+                        <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                        <name>Organisation</name>
+                        <telecom use="WP" value="tel:0241.123456"/>
+                        <addr>
+                            <country>Deutschland</country>
+                            <city>Düren</city>
+                            <postalCode>52351</postalCode>
+                            <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                        </addr>
+                        <standardIndustryClassCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                    </guardianOrganization>
+                </guardian>
+            </patient>
+        </patientRole>
+    </recordTarget>
+    <author typeCode="AUT" contextControlCode="OP">
+        <functionCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <time value="201316121830"/>
+        <assignedAuthor classCode="ASSIGNED">
+            <id root="2.16.840.1.113883.19.4" extension="c266"/>
+            <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+            <addr>
+                <country>Deutschland</country>
+                <city>Düren</city>
+                <postalCode>52351</postalCode>
+                <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+            </addr>
+            <telecom use="WP" value="tel:0241.123456"/>
+            <assignedAuthoringDevice classCode="DEV" determinerCode="INSTANCE">
+                <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                <manufacturerModelName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                <softwareName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                <asMaintainedEntity classCode="MNT">
+                    <effectiveTime value="201316121830"/>
+                    <maintainingPerson classCode="PSN" determinerCode="INSTANCE">
+                        <name>
+                            <given>Test</given>
+                            <family>Test</family>
+                            <suffix>Test</suffix>
+                        </name>
+                    </maintainingPerson>
+                </asMaintainedEntity>
+            </assignedAuthoringDevice>
+            <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+                <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                <name>Organisation</name>
+                <telecom use="WP" value="tel:0241.123456"/>
+                <addr>
+                    <country>Deutschland</country>
+                    <city>Düren</city>
+                    <postalCode>52351</postalCode>
+                    <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                </addr>
+                <standardIndustryClassCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+            </representedOrganization>
+        </assignedAuthor>
+    </author>
+    <dataEnterer typeCode="ENT" contextControlCode="OP">
+        <time value="20140107153000"/>
+        <assignedEntity classCode="ASSIGNED">
+            <id root="2.16.840.1.113883.19.4" extension="c266"/>
+            <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+            <addr>
+                <country>Deutschland</country>
+                <city>Düren</city>
+                <postalCode>52351</postalCode>
+                <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+            </addr>
+            <telecom use="WP" value="tel:0241.123456"/>
+            <assignedPerson classCode="PSN" determinerCode="INSTANCE">
+                <name>
+                    <given>Test</given>
+                    <family>Test</family>
+                    <suffix>Test</suffix>
+                </name>
+            </assignedPerson>
+            <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+                <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                <name>Organisation</name>
+                <telecom use="WP" value="tel:0241.123456"/>
+                <addr>
+                    <country>Deutschland</country>
+                    <city>Düren</city>
+                    <postalCode>52351</postalCode>
+                    <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                </addr>
+                <standardIndustryClassCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+            </representedOrganization>
+        </assignedEntity>
+    </dataEnterer>
+    <informant typeCode="INF" contextControlCode="OP">
+        <relatedEntity classCode="STD">
+            <addr>
+                <country>Deutschland</country>
+                <city>Düren</city>
+                <postalCode>52351</postalCode>
+                <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+            </addr>
+            <telecom use="WP" value="tel:0241.123456"/>
+            <effectiveTime value="201316121830"/>
+            <relatedPerson classCode="PSN" determinerCode="INSTANCE">
+                <name>
+                    <given>Test</given>
+                    <family>Test</family>
+                    <suffix>Test</suffix>
+                </name>
+            </relatedPerson>
+        </relatedEntity>
+    </informant>
+    <custodian typeCode="CST">
+        <assignedCustodian classCode="ASSIGNED">
+            <representedCustodianOrganization classCode="ORG" determinerCode="INSTANCE">
+                <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                <name>RepresentedOrganization</name>
+                <telecom use="WP" value="tel:0241.123456"/>
+                <addr>
+                    <country>Deutschland</country>
+                    <city>Düren</city>
+                    <postalCode>52351</postalCode>
+                    <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                </addr>
+            </representedCustodianOrganization>
+        </assignedCustodian>
+    </custodian>
+    <informationRecipient typeCode="PRCP">
+        <intendedRecipient classCode="ASSIGNED">
+            <id root="2.16.840.1.113883.19.4" extension="c266"/>
+            <addr>
+                <country>Deutschland</country>
+                <city>Düren</city>
+                <postalCode>52351</postalCode>
+                <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+            </addr>
+            <telecom use="WP" value="tel:0241.123456"/>
+            <informationRecipient classCode="PSN" determinerCode="INSTANCE">
+                <name>
+                    <given>Test</given>
+                    <family>Test</family>
+                    <suffix>Test</suffix>
+                </name>
+            </informationRecipient>
+            <receivedOrganization classCode="ORG" determinerCode="INSTANCE">
+                <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                <name>Organisation</name>
+                <telecom use="WP" value="tel:0241.123456"/>
+                <addr>
+                    <country>Deutschland</country>
+                    <city>Düren</city>
+                    <postalCode>52351</postalCode>
+                    <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                </addr>
+                <standardIndustryClassCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+            </receivedOrganization>
+        </intendedRecipient>
+    </informationRecipient>
+    <legalAuthenticator>
+        <time value="201316121830"/>
+        <signatureCode code="S"/>
+        <assignedEntity classCode="ASSIGNED">
+            <id root="2.16.840.1.113883.19.4" extension="c266"/>
+            <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+            <addr>
+                <country>Deutschland</country>
+                <city>Düren</city>
+                <postalCode>52351</postalCode>
+                <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+            </addr>
+            <telecom use="WP" value="tel:0241.123456"/>
+        </assignedEntity>
+    </legalAuthenticator>
+    <authenticator typeCode="AUTHEN">
+        <time value="201312171830"/>
+        <signatureCode code="S"/>
+        <assignedEntity classCode="ASSIGNED">
+            <id root="2.16.840.1.113883.19.4" extension="c266"/>
+            <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+            <addr>
+                <country>Deutschland</country>
+                <city>Düren</city>
+                <postalCode>52351</postalCode>
+                <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+            </addr>
+            <telecom use="WP" value="tel:0241.123456"/>
+        </assignedEntity>
+    </authenticator>
+    <participant typeCode="PRF" contextControlCode="OP">
+        <functionCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <time>
+            <low value="11"/>
+            <high value="99"/>
+        </time>
+        <associatedEntity classCode="CODE">
+            <id root="2.16.840.1.113883.19.4" extension="c266"/>
+            <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+            <addr>
+                <country>Deutschland</country>
+                <city>Düren</city>
+                <postalCode>52351</postalCode>
+                <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+            </addr>
+            <telecom use="WP" value="tel:0241.123456"/>
+            <associatedPerson classCode="PSN" determinerCode="INSTANCE">
+                <name>
+                    <given>Test</given>
+                    <family>Test</family>
+                    <suffix>Test</suffix>
+                </name>
+            </associatedPerson>
+            <scopingOrganization classCode="ORG" determinerCode="INSTANCE">
+                <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                <name>Organisation</name>
+                <telecom use="WP" value="tel:0241.123456"/>
+                <addr>
+                    <country>Deutschland</country>
+                    <city>Düren</city>
+                    <postalCode>52351</postalCode>
+                    <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                </addr>
+                <standardIndustryClassCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+            </scopingOrganization>
+        </associatedEntity>
+    </participant>
+    <inFulfillmentOf typeCode="FLFS">
+        <order classCode="ACT" moodCode="RQO">
+            <id root="2.16.840.1.113883.19.4" extension="c266"/>
+            <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+            <priorityCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        </order>
+    </inFulfillmentOf>
+    <documentationOf typeCode="DOC">
+        <serviceEvent classCode="PCPR" moodCode="EVN">
+            <id root="2.16.840.1.113883.19.4" extension="c266"/>
+            <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+            <effectiveTime value="20141301"/>
+            <performer typeCode="PPRF">
+                <functionCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                <time value="201413011349"/>
+                <assignedEntity classCode="ASSIGNED">
+                    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                    <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                    <addr>
+                        <country>Deutschland</country>
+                        <city>Düren</city>
+                        <postalCode>52351</postalCode>
+                        <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                    </addr>
+                    <telecom use="WP" value="tel:0241.123456"/>
+                </assignedEntity>
+            </performer>
+        </serviceEvent>
+    </documentationOf>
+    <relatedDocument typeCode="APND">
+        <parentDocument classCode="DOCCLIN" moodCode="EVN">
+            <id root="2.16.840.1.113883.19.4" extension="c266"/>
+            <code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CE" code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+            <text>Test Text</text>
+            <setId root="2.16.840.1.113883.19.4" extension="c266"/>
+        </parentDocument>
+    </relatedDocument>
+    <authorization typeCode="AUTH">
+        <consent classCode="CONS" moodCode="EVN">
+            <id root="2.16.840.1.113883.19.4" extension="c266"/>
+            <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+            <statusCode code="ACTIVE" codeSystem=""/>
+        </consent>
+    </authorization>
+    <componentOf typeCode="COMP">
+        <encompassingEncounter classCode="ENC" moodCode="EVN">
+            <id root="2.16.840.1.113883.19.4" extension="c266"/>
+            <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+            <effectiveTime value="201413011401"/>
+            <dischargeDispositionCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+            <responsibleParty typeCode="RESP">
+                <assignedEntity classCode="ASSIGNED">
+                    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                    <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                    <addr>
+                        <country>Deutschland</country>
+                        <city>Düren</city>
+                        <postalCode>52351</postalCode>
+                        <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                    </addr>
+                    <telecom use="WP" value="tel:0241.123456"/>
+                </assignedEntity>
+            </responsibleParty>
+            <encounterParticipant typeCode="ADM">
+                <time/>
+                <assignedEntity classCode="ASSIGNED">
+                    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                    <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                    <addr>
+                        <country>Deutschland</country>
+                        <city>Düren</city>
+                        <postalCode>52351</postalCode>
+                        <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                    </addr>
+                    <telecom use="WP" value="tel:0241.123456"/>
+                </assignedEntity>
+            </encounterParticipant>
+            <location typeCode="LOC">
+                <healthCareFacility classCode="SDLOC">
+                    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                    <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                    <location classCode="PLC" determinerCode="INSTANCE">
+                        <name xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="PN">
+                            <given>Platz</given>
+                            <family></family>
+                            <suffix></suffix>
+                            <prefix></prefix>
+                        </name>
+                        <addr>
+                            <country>Deutschland</country>
+                            <city>Düren</city>
+                            <postalCode>52351</postalCode>
+                            <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                        </addr>
+                    </location>
+                    <serviceProviderOrganization classCode="ORG" determinerCode="INSTANCE">
+                        <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                        <name>Organisation</name>
+                        <telecom use="WP" value="tel:0241.123456"/>
+                        <addr>
+                            <country>Deutschland</country>
+                            <city>Düren</city>
+                            <postalCode>52351</postalCode>
+                            <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                        </addr>
+                        <standardIndustryClassCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                    </serviceProviderOrganization>
+                </healthCareFacility>
+            </location>
+        </encompassingEncounter>
+    </componentOf>
+    <component typeCode="COMP" contextConductionInd="true">
+        <structuredBody classCode="DOCBODY" moodCode="EVN">
+            <confidentialityCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+            <languageCode code="de-DE"/>
+            <component typeCode="COMP" contextConductionInd="true">
+                <section classCode="DOCSECT" moodCode="EVN">
+                    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                    <text>Observation</text>
+                    <confidentialityCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                    <languageCode code="de-DE"/>
+                    <subject typeCode="SBJ" contextControlCode="OP">
+                        <awarenessCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                        <relatedSubject classCode="PAT">
+                            <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <addr>
+<country>Deutschland</country>
+<city>Düren</city>
+<postalCode>52351</postalCode>
+<streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                            </addr>
+                            <telecom use="WP" value="tel:0241.123456"/>
+                            <subject classCode="PSN" determinerCode="INSTANCE">
+<name>
+    <given>Test</given>
+    <family>Test</family>
+    <suffix>Test</suffix>
+</name>
+                            </subject>
+                        </relatedSubject>
+                    </subject>
+                    <author typeCode="AUT" contextControlCode="OP">
+                        <functionCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                        <time value="201316121830"/>
+                        <assignedAuthor classCode="ASSIGNED">
+                            <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                            <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <addr>
+<country>Deutschland</country>
+<city>Düren</city>
+<postalCode>52351</postalCode>
+<streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                            </addr>
+                            <telecom use="WP" value="tel:0241.123456"/>
+                            <assignedAuthoringDevice classCode="DEV" determinerCode="INSTANCE">
+<code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<manufacturerModelName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<softwareName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<asMaintainedEntity classCode="MNT">
+    <effectiveTime value="201316121830"/>
+    <maintainingPerson classCode="PSN" determinerCode="INSTANCE">
+        <name>
+            <given>Test</given>
+            <family>Test</family>
+            <suffix>Test</suffix>
+        </name>
+    </maintainingPerson>
+</asMaintainedEntity>
+                            </assignedAuthoringDevice>
+                            <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+<id root="2.16.840.1.113883.19.4" extension="c266"/>
+<name>Organisation</name>
+<telecom use="WP" value="tel:0241.123456"/>
+<addr>
+    <country>Deutschland</country>
+    <city>Düren</city>
+    <postalCode>52351</postalCode>
+    <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+</addr>
+<standardIndustryClassCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            </representedOrganization>
+                        </assignedAuthor>
+                    </author>
+                    <informant typeCode="INF" contextControlCode="OP">
+                        <relatedEntity classCode="STD">
+                            <addr>
+<country>Deutschland</country>
+<city>Düren</city>
+<postalCode>52351</postalCode>
+<streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                            </addr>
+                            <telecom use="WP" value="tel:0241.123456"/>
+                            <effectiveTime value="201316121830"/>
+                            <relatedPerson classCode="PSN" determinerCode="INSTANCE">
+<name>
+    <given>Test</given>
+    <family>Test</family>
+    <suffix>Test</suffix>
+</name>
+                            </relatedPerson>
+                        </relatedEntity>
+                    </informant>
+                    <entry typeCode="COMP" contextConductionInd="true">
+                        <observation classCode="OBS" moodCode="EVN" negationInd="true">
+                            <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                            <code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CE" code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <text>Observation</text>
+                            <statusCode code="ACTIVE"/>
+                            <effectiveTime value="201414010000"/>
+                            <priorityCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <repeatNumber value="5"/>
+                            <languageCode code="de-DE"/>
+                            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ED">ObservationValue</value>
+                            <interpretationCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <methodCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <targetSiteCode xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CE" code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <specimen typeCode="SPC">
+<specimenRole classCode="SPEC">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <specimenPlayingEntity classCode="ENT" determinerCode="INSTANCE">
+        <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <quantity value="10" unit="ml"/>
+        <name>
+            <given>Test</given>
+            <family>Test</family>
+            <suffix>Test</suffix>
+        </name>
+        <desc>Beschreibung</desc>
+    </specimenPlayingEntity>
+</specimenRole>
+                            </specimen>
+                            <performer typeCode="PRF">
+<time value="1513"/>
+<modeCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<assignedEntity classCode="ASSIGNED">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <addr>
+        <country>Deutschland</country>
+        <city>Düren</city>
+        <postalCode>52351</postalCode>
+        <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+    </addr>
+    <telecom use="WP" value="tel:0241.123456"/>
+</assignedEntity>
+                            </performer>
+                            <author typeCode="AUT" contextControlCode="OP">
+<functionCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<time value="201316121830"/>
+<assignedAuthor classCode="ASSIGNED">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <addr>
+        <country>Deutschland</country>
+        <city>Düren</city>
+        <postalCode>52351</postalCode>
+        <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+    </addr>
+    <telecom use="WP" value="tel:0241.123456"/>
+    <assignedAuthoringDevice classCode="DEV" determinerCode="INSTANCE">
+        <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <manufacturerModelName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <softwareName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <asMaintainedEntity classCode="MNT">
+            <effectiveTime value="201316121830"/>
+            <maintainingPerson classCode="PSN" determinerCode="INSTANCE">
+                <name>
+                    <given>Test</given>
+                    <family>Test</family>
+                    <suffix>Test</suffix>
+                </name>
+            </maintainingPerson>
+        </asMaintainedEntity>
+    </assignedAuthoringDevice>
+    <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+        <id root="2.16.840.1.113883.19.4" extension="c266"/>
+        <name>Organisation</name>
+        <telecom use="WP" value="tel:0241.123456"/>
+        <addr>
+            <country>Deutschland</country>
+            <city>Düren</city>
+            <postalCode>52351</postalCode>
+            <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+        </addr>
+        <standardIndustryClassCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    </representedOrganization>
+</assignedAuthor>
+                            </author>
+                            <participant typeCode="PRF" contextControlCode="OP">
+<time value="1400"/>
+<awarenessCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<participantRole classCode="ROL">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <addr>
+        <country>Deutschland</country>
+        <city>Düren</city>
+        <postalCode>52351</postalCode>
+        <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+    </addr>
+    <telecom use="WP" value="tel:0241.123456"/>
+    <playingDevice classCode="DEV" determinerCode="INSTANCE">
+        <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <manufacturerModelName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <softwareName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    </playingDevice>
+    <scopingEntity classCode="ENT" determinerCode="INSTANCE">
+        <id root="2.16.840.1.113883.19.4" extension="c266"/>
+        <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <desc>Beschreibung scopingEntity</desc>
+    </scopingEntity>
+</participantRole>
+                            </participant>
+                            <reference typeCode="ELNK">
+<seperatableInd value="true"/>
+<externalDocument classCode="DOC" moodCode="EVN">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CE" code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <text>ExternalDocument Text</text>
+    <setId root="2.16.840.1.113883.19.4" extension="c266"/>
+    <versionNumber value="5"/>
+</externalDocument>
+                            </reference>
+                            <precondition typeCode="PRCN">
+<criterion classCode="OBS" moodCode="EVN.CRT">
+    <code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CE" code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <text>Criterion-Text</text>
+    <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ED">Criterion-Value</value>
+</criterion>
+                            </precondition>
+                            <referenceRange typeCode="REFV">
+<observationRange classCode="OBS" moodCode="EVN.CRT">
+    <code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CE" code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <text>ObservationText</text>
+    <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ED">ObservationRange-Value</value>
+    <interpretationCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+</observationRange>
+                            </referenceRange>
+                        </observation>
+                    </entry>
+                </section>
+            </component>
+            <component typeCode="COMP" contextConductionInd="true">
+                <section classCode="DOCSECT" moodCode="EVN">
+                    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                    <text>RegionOfInterest</text>
+                    <confidentialityCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                    <languageCode code="de-DE"/>
+                    <subject typeCode="SBJ" contextControlCode="OP">
+                        <awarenessCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                        <relatedSubject classCode="PAT">
+                            <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <addr>
+<country>Deutschland</country>
+<city>Düren</city>
+<postalCode>52351</postalCode>
+<streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                            </addr>
+                            <telecom use="WP" value="tel:0241.123456"/>
+                            <subject classCode="PSN" determinerCode="INSTANCE">
+<name>
+    <given>Test</given>
+    <family>Test</family>
+    <suffix>Test</suffix>
+</name>
+                            </subject>
+                        </relatedSubject>
+                    </subject>
+                    <author typeCode="AUT" contextControlCode="OP">
+                        <functionCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                        <time value="201316121830"/>
+                        <assignedAuthor classCode="ASSIGNED">
+                            <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                            <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <addr>
+<country>Deutschland</country>
+<city>Düren</city>
+<postalCode>52351</postalCode>
+<streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                            </addr>
+                            <telecom use="WP" value="tel:0241.123456"/>
+                            <assignedAuthoringDevice classCode="DEV" determinerCode="INSTANCE">
+<code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<manufacturerModelName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<softwareName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<asMaintainedEntity classCode="MNT">
+    <effectiveTime value="201316121830"/>
+    <maintainingPerson classCode="PSN" determinerCode="INSTANCE">
+        <name>
+            <given>Test</given>
+            <family>Test</family>
+            <suffix>Test</suffix>
+        </name>
+    </maintainingPerson>
+</asMaintainedEntity>
+                            </assignedAuthoringDevice>
+                            <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+<id root="2.16.840.1.113883.19.4" extension="c266"/>
+<name>Organisation</name>
+<telecom use="WP" value="tel:0241.123456"/>
+<addr>
+    <country>Deutschland</country>
+    <city>Düren</city>
+    <postalCode>52351</postalCode>
+    <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+</addr>
+<standardIndustryClassCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            </representedOrganization>
+                        </assignedAuthor>
+                    </author>
+                    <informant typeCode="INF" contextControlCode="OP">
+                        <relatedEntity classCode="STD">
+                            <addr>
+<country>Deutschland</country>
+<city>Düren</city>
+<postalCode>52351</postalCode>
+<streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                            </addr>
+                            <telecom use="WP" value="tel:0241.123456"/>
+                            <effectiveTime value="201316121830"/>
+                            <relatedPerson classCode="PSN" determinerCode="INSTANCE">
+<name>
+    <given>Test</given>
+    <family>Test</family>
+    <suffix>Test</suffix>
+</name>
+                            </relatedPerson>
+                        </relatedEntity>
+                    </informant>
+                    <entry typeCode="COMP" contextConductionInd="true">
+                        <regionOfInterest classCode="ROIOVL" moodCode="EVN">
+                            <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                            <code code="Blub"/>
+                            <value value="5"/>
+                            <specimen typeCode="SPC">
+<specimenRole classCode="SPEC">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <specimenPlayingEntity classCode="ENT" determinerCode="INSTANCE">
+        <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <quantity value="10" unit="ml"/>
+        <name>
+            <given>Test</given>
+            <family>Test</family>
+            <suffix>Test</suffix>
+        </name>
+        <desc>Beschreibung</desc>
+    </specimenPlayingEntity>
+</specimenRole>
+                            </specimen>
+                            <performer typeCode="PRF">
+<time value="1513"/>
+<modeCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<assignedEntity classCode="ASSIGNED">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <addr>
+        <country>Deutschland</country>
+        <city>Düren</city>
+        <postalCode>52351</postalCode>
+        <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+    </addr>
+    <telecom use="WP" value="tel:0241.123456"/>
+</assignedEntity>
+                            </performer>
+                            <author typeCode="AUT" contextControlCode="OP">
+<functionCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<time value="201316121830"/>
+<assignedAuthor classCode="ASSIGNED">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <addr>
+        <country>Deutschland</country>
+        <city>Düren</city>
+        <postalCode>52351</postalCode>
+        <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+    </addr>
+    <telecom use="WP" value="tel:0241.123456"/>
+    <assignedAuthoringDevice classCode="DEV" determinerCode="INSTANCE">
+        <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <manufacturerModelName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <softwareName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <asMaintainedEntity classCode="MNT">
+            <effectiveTime value="201316121830"/>
+            <maintainingPerson classCode="PSN" determinerCode="INSTANCE">
+                <name>
+                    <given>Test</given>
+                    <family>Test</family>
+                    <suffix>Test</suffix>
+                </name>
+            </maintainingPerson>
+        </asMaintainedEntity>
+    </assignedAuthoringDevice>
+    <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+        <id root="2.16.840.1.113883.19.4" extension="c266"/>
+        <name>Organisation</name>
+        <telecom use="WP" value="tel:0241.123456"/>
+        <addr>
+            <country>Deutschland</country>
+            <city>Düren</city>
+            <postalCode>52351</postalCode>
+            <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+        </addr>
+        <standardIndustryClassCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    </representedOrganization>
+</assignedAuthor>
+                            </author>
+                            <participant typeCode="PRF" contextControlCode="OP">
+<time value="1400"/>
+<awarenessCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<participantRole classCode="ROL">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <addr>
+        <country>Deutschland</country>
+        <city>Düren</city>
+        <postalCode>52351</postalCode>
+        <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+    </addr>
+    <telecom use="WP" value="tel:0241.123456"/>
+    <playingDevice classCode="DEV" determinerCode="INSTANCE">
+        <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <manufacturerModelName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <softwareName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    </playingDevice>
+    <scopingEntity classCode="ENT" determinerCode="INSTANCE">
+        <id root="2.16.840.1.113883.19.4" extension="c266"/>
+        <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <desc>Beschreibung scopingEntity</desc>
+    </scopingEntity>
+</participantRole>
+                            </participant>
+                            <reference typeCode="ELNK">
+<seperatableInd value="true"/>
+<externalDocument classCode="DOC" moodCode="EVN">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CE" code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <text>ExternalDocument Text</text>
+    <setId root="2.16.840.1.113883.19.4" extension="c266"/>
+    <versionNumber value="5"/>
+</externalDocument>
+                            </reference>
+                            <precondition typeCode="PRCN">
+<criterion classCode="OBS" moodCode="EVN.CRT">
+    <code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CE" code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <text>Criterion-Text</text>
+    <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ED">Criterion-Value</value>
+</criterion>
+                            </precondition>
+                        </regionOfInterest>
+                    </entry>
+                </section>
+            </component>
+            <component typeCode="COMP" contextConductionInd="true">
+                <section classCode="DOCSECT" moodCode="EVN">
+                    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                    <text>ObservationMedia</text>
+                    <confidentialityCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                    <languageCode code="de-DE"/>
+                    <subject typeCode="SBJ" contextControlCode="OP">
+                        <awarenessCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                        <relatedSubject classCode="PAT">
+                            <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <addr>
+<country>Deutschland</country>
+<city>Düren</city>
+<postalCode>52351</postalCode>
+<streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                            </addr>
+                            <telecom use="WP" value="tel:0241.123456"/>
+                            <subject classCode="PSN" determinerCode="INSTANCE">
+<name>
+    <given>Test</given>
+    <family>Test</family>
+    <suffix>Test</suffix>
+</name>
+                            </subject>
+                        </relatedSubject>
+                    </subject>
+                    <author typeCode="AUT" contextControlCode="OP">
+                        <functionCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                        <time value="201316121830"/>
+                        <assignedAuthor classCode="ASSIGNED">
+                            <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                            <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <addr>
+<country>Deutschland</country>
+<city>Düren</city>
+<postalCode>52351</postalCode>
+<streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                            </addr>
+                            <telecom use="WP" value="tel:0241.123456"/>
+                            <assignedAuthoringDevice classCode="DEV" determinerCode="INSTANCE">
+<code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<manufacturerModelName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<softwareName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<asMaintainedEntity classCode="MNT">
+    <effectiveTime value="201316121830"/>
+    <maintainingPerson classCode="PSN" determinerCode="INSTANCE">
+        <name>
+            <given>Test</given>
+            <family>Test</family>
+            <suffix>Test</suffix>
+        </name>
+    </maintainingPerson>
+</asMaintainedEntity>
+                            </assignedAuthoringDevice>
+                            <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+<id root="2.16.840.1.113883.19.4" extension="c266"/>
+<name>Organisation</name>
+<telecom use="WP" value="tel:0241.123456"/>
+<addr>
+    <country>Deutschland</country>
+    <city>Düren</city>
+    <postalCode>52351</postalCode>
+    <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+</addr>
+<standardIndustryClassCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            </representedOrganization>
+                        </assignedAuthor>
+                    </author>
+                    <informant typeCode="INF" contextControlCode="OP">
+                        <relatedEntity classCode="STD">
+                            <addr>
+<country>Deutschland</country>
+<city>Düren</city>
+<postalCode>52351</postalCode>
+<streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                            </addr>
+                            <telecom use="WP" value="tel:0241.123456"/>
+                            <effectiveTime value="201316121830"/>
+                            <relatedPerson classCode="PSN" determinerCode="INSTANCE">
+<name>
+    <given>Test</given>
+    <family>Test</family>
+    <suffix>Test</suffix>
+</name>
+                            </relatedPerson>
+                        </relatedEntity>
+                    </informant>
+                    <entry typeCode="COMP" contextConductionInd="true">
+                        <observationMedia classCode="OBS" moodCode="EVN">
+                            <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                            <languageCode code="de-DE"/>
+                            <value>Observation-Media</value>
+                            <specimen typeCode="SPC">
+<specimenRole classCode="SPEC">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <specimenPlayingEntity classCode="ENT" determinerCode="INSTANCE">
+        <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <quantity value="10" unit="ml"/>
+        <name>
+            <given>Test</given>
+            <family>Test</family>
+            <suffix>Test</suffix>
+        </name>
+        <desc>Beschreibung</desc>
+    </specimenPlayingEntity>
+</specimenRole>
+                            </specimen>
+                            <performer typeCode="PRF">
+<time value="1513"/>
+<modeCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<assignedEntity classCode="ASSIGNED">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <addr>
+        <country>Deutschland</country>
+        <city>Düren</city>
+        <postalCode>52351</postalCode>
+        <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+    </addr>
+    <telecom use="WP" value="tel:0241.123456"/>
+</assignedEntity>
+                            </performer>
+                            <author typeCode="AUT" contextControlCode="OP">
+<functionCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<time value="201316121830"/>
+<assignedAuthor classCode="ASSIGNED">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <addr>
+        <country>Deutschland</country>
+        <city>Düren</city>
+        <postalCode>52351</postalCode>
+        <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+    </addr>
+    <telecom use="WP" value="tel:0241.123456"/>
+    <assignedAuthoringDevice classCode="DEV" determinerCode="INSTANCE">
+        <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <manufacturerModelName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <softwareName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <asMaintainedEntity classCode="MNT">
+            <effectiveTime value="201316121830"/>
+            <maintainingPerson classCode="PSN" determinerCode="INSTANCE">
+                <name>
+                    <given>Test</given>
+                    <family>Test</family>
+                    <suffix>Test</suffix>
+                </name>
+            </maintainingPerson>
+        </asMaintainedEntity>
+    </assignedAuthoringDevice>
+    <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+        <id root="2.16.840.1.113883.19.4" extension="c266"/>
+        <name>Organisation</name>
+        <telecom use="WP" value="tel:0241.123456"/>
+        <addr>
+            <country>Deutschland</country>
+            <city>Düren</city>
+            <postalCode>52351</postalCode>
+            <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+        </addr>
+        <standardIndustryClassCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    </representedOrganization>
+</assignedAuthor>
+                            </author>
+                            <participant typeCode="PRF" contextControlCode="OP">
+<time value="1400"/>
+<awarenessCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<participantRole classCode="ROL">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <addr>
+        <country>Deutschland</country>
+        <city>Düren</city>
+        <postalCode>52351</postalCode>
+        <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+    </addr>
+    <telecom use="WP" value="tel:0241.123456"/>
+    <playingDevice classCode="DEV" determinerCode="INSTANCE">
+        <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <manufacturerModelName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <softwareName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    </playingDevice>
+    <scopingEntity classCode="ENT" determinerCode="INSTANCE">
+        <id root="2.16.840.1.113883.19.4" extension="c266"/>
+        <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <desc>Beschreibung scopingEntity</desc>
+    </scopingEntity>
+</participantRole>
+                            </participant>
+                            <reference typeCode="ELNK">
+<seperatableInd value="true"/>
+<externalDocument classCode="DOC" moodCode="EVN">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CE" code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <text>ExternalDocument Text</text>
+    <setId root="2.16.840.1.113883.19.4" extension="c266"/>
+    <versionNumber value="5"/>
+</externalDocument>
+                            </reference>
+                            <precondition typeCode="PRCN">
+<criterion classCode="OBS" moodCode="EVN.CRT">
+    <code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CE" code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <text>Criterion-Text</text>
+    <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ED">Criterion-Value</value>
+</criterion>
+                            </precondition>
+                        </observationMedia>
+                    </entry>
+                </section>
+            </component>
+            <component typeCode="COMP" contextConductionInd="true">
+                <section classCode="DOCSECT" moodCode="EVN">
+                    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                    <text>SubstanceAdministration</text>
+                    <confidentialityCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                    <languageCode code="de-DE"/>
+                    <subject typeCode="SBJ" contextControlCode="OP">
+                        <awarenessCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                        <relatedSubject classCode="PAT">
+                            <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <addr>
+<country>Deutschland</country>
+<city>Düren</city>
+<postalCode>52351</postalCode>
+<streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                            </addr>
+                            <telecom use="WP" value="tel:0241.123456"/>
+                            <subject classCode="PSN" determinerCode="INSTANCE">
+<name>
+    <given>Test</given>
+    <family>Test</family>
+    <suffix>Test</suffix>
+</name>
+                            </subject>
+                        </relatedSubject>
+                    </subject>
+                    <author typeCode="AUT" contextControlCode="OP">
+                        <functionCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                        <time value="201316121830"/>
+                        <assignedAuthor classCode="ASSIGNED">
+                            <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                            <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <addr>
+<country>Deutschland</country>
+<city>Düren</city>
+<postalCode>52351</postalCode>
+<streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                            </addr>
+                            <telecom use="WP" value="tel:0241.123456"/>
+                            <assignedAuthoringDevice classCode="DEV" determinerCode="INSTANCE">
+<code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<manufacturerModelName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<softwareName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<asMaintainedEntity classCode="MNT">
+    <effectiveTime value="201316121830"/>
+    <maintainingPerson classCode="PSN" determinerCode="INSTANCE">
+        <name>
+            <given>Test</given>
+            <family>Test</family>
+            <suffix>Test</suffix>
+        </name>
+    </maintainingPerson>
+</asMaintainedEntity>
+                            </assignedAuthoringDevice>
+                            <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+<id root="2.16.840.1.113883.19.4" extension="c266"/>
+<name>Organisation</name>
+<telecom use="WP" value="tel:0241.123456"/>
+<addr>
+    <country>Deutschland</country>
+    <city>Düren</city>
+    <postalCode>52351</postalCode>
+    <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+</addr>
+<standardIndustryClassCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            </representedOrganization>
+                        </assignedAuthor>
+                    </author>
+                    <informant typeCode="INF" contextControlCode="OP">
+                        <relatedEntity classCode="STD">
+                            <addr>
+<country>Deutschland</country>
+<city>Düren</city>
+<postalCode>52351</postalCode>
+<streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                            </addr>
+                            <telecom use="WP" value="tel:0241.123456"/>
+                            <effectiveTime value="201316121830"/>
+                            <relatedPerson classCode="PSN" determinerCode="INSTANCE">
+<name>
+    <given>Test</given>
+    <family>Test</family>
+    <suffix>Test</suffix>
+</name>
+                            </relatedPerson>
+                        </relatedEntity>
+                    </informant>
+                    <entry typeCode="COMP" contextConductionInd="true">
+                        <substanceAdministration classCode="SBADM" moodCode="EVN" negationInd="true">
+                            <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                            <code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CE" code="Blub"/>
+                            <text>SubstanceAdministration-Text</text>
+                            <statusCode code="ACTIVE"/>
+                            <effectiveTime xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="IVL_TS">
+<low value="201001010101"/>
+<high value="201501010101"/>
+                            </effectiveTime>
+                            <priorityCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <repeatNumber value="10"/>
+                            <routeCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <approachSiteCode xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CE" code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <doseQuantity operator="I" value="10" unit="ml"/>
+                            <rateQuantity operator="I" value="10" unit="ml"/>
+                            <maxDoseQuantity>
+<numerator value="10" unit="ml"/>
+<denominator value="10" unit="ml"/>
+                            </maxDoseQuantity>
+                            <administrationUnitCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <specimen typeCode="SPC">
+<specimenRole classCode="SPEC">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <specimenPlayingEntity classCode="ENT" determinerCode="INSTANCE">
+        <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <quantity value="10" unit="ml"/>
+        <name>
+            <given>Test</given>
+            <family>Test</family>
+            <suffix>Test</suffix>
+        </name>
+        <desc>Beschreibung</desc>
+    </specimenPlayingEntity>
+</specimenRole>
+                            </specimen>
+                            <consumable typeCode="CSM">
+<manufacturedProduct classCode="MANU">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <manufacturedLabeledDrug classCode="MMAT" determinerCode="KIND">
+        <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <name>Drug-Name</name>
+    </manufacturedLabeledDrug>
+    <manufacturerOrganization classCode="ORG" determinerCode="INSTANCE">
+        <id root="2.16.840.1.113883.19.4" extension="c266"/>
+        <name>Organisation</name>
+        <telecom use="WP" value="tel:0241.123456"/>
+        <addr>
+            <country>Deutschland</country>
+            <city>Düren</city>
+            <postalCode>52351</postalCode>
+            <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+        </addr>
+        <standardIndustryClassCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    </manufacturerOrganization>
+</manufacturedProduct>
+                            </consumable>
+                            <performer typeCode="PRF">
+<time value="1513"/>
+<modeCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<assignedEntity classCode="ASSIGNED">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <addr>
+        <country>Deutschland</country>
+        <city>Düren</city>
+        <postalCode>52351</postalCode>
+        <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+    </addr>
+    <telecom use="WP" value="tel:0241.123456"/>
+</assignedEntity>
+                            </performer>
+                            <author typeCode="AUT" contextControlCode="OP">
+<functionCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<time value="201316121830"/>
+<assignedAuthor classCode="ASSIGNED">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <addr>
+        <country>Deutschland</country>
+        <city>Düren</city>
+        <postalCode>52351</postalCode>
+        <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+    </addr>
+    <telecom use="WP" value="tel:0241.123456"/>
+    <assignedAuthoringDevice classCode="DEV" determinerCode="INSTANCE">
+        <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <manufacturerModelName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <softwareName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <asMaintainedEntity classCode="MNT">
+            <effectiveTime value="201316121830"/>
+            <maintainingPerson classCode="PSN" determinerCode="INSTANCE">
+                <name>
+                    <given>Test</given>
+                    <family>Test</family>
+                    <suffix>Test</suffix>
+                </name>
+            </maintainingPerson>
+        </asMaintainedEntity>
+    </assignedAuthoringDevice>
+    <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+        <id root="2.16.840.1.113883.19.4" extension="c266"/>
+        <name>Organisation</name>
+        <telecom use="WP" value="tel:0241.123456"/>
+        <addr>
+            <country>Deutschland</country>
+            <city>Düren</city>
+            <postalCode>52351</postalCode>
+            <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+        </addr>
+        <standardIndustryClassCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    </representedOrganization>
+</assignedAuthor>
+                            </author>
+                            <participant typeCode="PRF" contextControlCode="OP">
+<time value="1400"/>
+<awarenessCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<participantRole classCode="ROL">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <addr>
+        <country>Deutschland</country>
+        <city>Düren</city>
+        <postalCode>52351</postalCode>
+        <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+    </addr>
+    <telecom use="WP" value="tel:0241.123456"/>
+    <playingDevice classCode="DEV" determinerCode="INSTANCE">
+        <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <manufacturerModelName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <softwareName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    </playingDevice>
+    <scopingEntity classCode="ENT" determinerCode="INSTANCE">
+        <id root="2.16.840.1.113883.19.4" extension="c266"/>
+        <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <desc>Beschreibung scopingEntity</desc>
+    </scopingEntity>
+</participantRole>
+                            </participant>
+                            <reference typeCode="ELNK">
+<seperatableInd value="true"/>
+<externalDocument classCode="DOC" moodCode="EVN">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CE" code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <text>ExternalDocument Text</text>
+    <setId root="2.16.840.1.113883.19.4" extension="c266"/>
+    <versionNumber value="5"/>
+</externalDocument>
+                            </reference>
+                            <precondition typeCode="PRCN">
+<criterion classCode="OBS" moodCode="EVN.CRT">
+    <code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CE" code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <text>Criterion-Text</text>
+    <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ED">Criterion-Value</value>
+</criterion>
+                            </precondition>
+                        </substanceAdministration>
+                    </entry>
+                </section>
+            </component>
+            <component typeCode="COMP" contextConductionInd="true">
+                <section classCode="DOCSECT" moodCode="EVN">
+                    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                    <text>Supply</text>
+                    <confidentialityCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                    <languageCode code="de-DE"/>
+                    <subject typeCode="SBJ" contextControlCode="OP">
+                        <awarenessCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                        <relatedSubject classCode="PAT">
+                            <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <addr>
+<country>Deutschland</country>
+<city>Düren</city>
+<postalCode>52351</postalCode>
+<streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                            </addr>
+                            <telecom use="WP" value="tel:0241.123456"/>
+                            <subject classCode="PSN" determinerCode="INSTANCE">
+<name>
+    <given>Test</given>
+    <family>Test</family>
+    <suffix>Test</suffix>
+</name>
+                            </subject>
+                        </relatedSubject>
+                    </subject>
+                    <author typeCode="AUT" contextControlCode="OP">
+                        <functionCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                        <time value="201316121830"/>
+                        <assignedAuthor classCode="ASSIGNED">
+                            <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                            <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <addr>
+<country>Deutschland</country>
+<city>Düren</city>
+<postalCode>52351</postalCode>
+<streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                            </addr>
+                            <telecom use="WP" value="tel:0241.123456"/>
+                            <assignedAuthoringDevice classCode="DEV" determinerCode="INSTANCE">
+<code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<manufacturerModelName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<softwareName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<asMaintainedEntity classCode="MNT">
+    <effectiveTime value="201316121830"/>
+    <maintainingPerson classCode="PSN" determinerCode="INSTANCE">
+        <name>
+            <given>Test</given>
+            <family>Test</family>
+            <suffix>Test</suffix>
+        </name>
+    </maintainingPerson>
+</asMaintainedEntity>
+                            </assignedAuthoringDevice>
+                            <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+<id root="2.16.840.1.113883.19.4" extension="c266"/>
+<name>Organisation</name>
+<telecom use="WP" value="tel:0241.123456"/>
+<addr>
+    <country>Deutschland</country>
+    <city>Düren</city>
+    <postalCode>52351</postalCode>
+    <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+</addr>
+<standardIndustryClassCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            </representedOrganization>
+                        </assignedAuthor>
+                    </author>
+                    <informant typeCode="INF" contextControlCode="OP">
+                        <relatedEntity classCode="STD">
+                            <addr>
+<country>Deutschland</country>
+<city>Düren</city>
+<postalCode>52351</postalCode>
+<streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                            </addr>
+                            <telecom use="WP" value="tel:0241.123456"/>
+                            <effectiveTime value="201316121830"/>
+                            <relatedPerson classCode="PSN" determinerCode="INSTANCE">
+<name>
+    <given>Test</given>
+    <family>Test</family>
+    <suffix>Test</suffix>
+</name>
+                            </relatedPerson>
+                        </relatedEntity>
+                    </informant>
+                    <entry typeCode="COMP" contextConductionInd="true">
+                        <supply classCode="SPLY" moodCode="EVN">
+                            <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                            <code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CE" code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <text>Supply-Text</text>
+                            <statusCode code="ACTIVE" codeSystem=""/>
+                            <effectiveTime value="201415011253"/>
+                            <priorityCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <repeatNumber value="5"/>
+                            <independentInd value="true"/>
+                            <quantity value="10" unit="ml"/>
+                            <expectedUseTime value="201415011253"/>
+                            <specimen typeCode="SPC">
+<specimenRole classCode="SPEC">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <specimenPlayingEntity classCode="ENT" determinerCode="INSTANCE">
+        <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <quantity value="10" unit="ml"/>
+        <name>
+            <given>Test</given>
+            <family>Test</family>
+            <suffix>Test</suffix>
+        </name>
+        <desc>Beschreibung</desc>
+    </specimenPlayingEntity>
+</specimenRole>
+                            </specimen>
+                            <product typeCode="PRD">
+<manufacturedProduct classCode="MANU">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <manufacturedLabeledDrug classCode="MMAT" determinerCode="KIND">
+        <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <name>Drug-Name</name>
+    </manufacturedLabeledDrug>
+    <manufacturerOrganization classCode="ORG" determinerCode="INSTANCE">
+        <id root="2.16.840.1.113883.19.4" extension="c266"/>
+        <name>Organisation</name>
+        <telecom use="WP" value="tel:0241.123456"/>
+        <addr>
+            <country>Deutschland</country>
+            <city>Düren</city>
+            <postalCode>52351</postalCode>
+            <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+        </addr>
+        <standardIndustryClassCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    </manufacturerOrganization>
+</manufacturedProduct>
+                            </product>
+                            <performer typeCode="PRF">
+<time value="1513"/>
+<modeCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<assignedEntity classCode="ASSIGNED">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <addr>
+        <country>Deutschland</country>
+        <city>Düren</city>
+        <postalCode>52351</postalCode>
+        <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+    </addr>
+    <telecom use="WP" value="tel:0241.123456"/>
+</assignedEntity>
+                            </performer>
+                            <author typeCode="AUT" contextControlCode="OP">
+<functionCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<time value="201316121830"/>
+<assignedAuthor classCode="ASSIGNED">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <addr>
+        <country>Deutschland</country>
+        <city>Düren</city>
+        <postalCode>52351</postalCode>
+        <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+    </addr>
+    <telecom use="WP" value="tel:0241.123456"/>
+    <assignedAuthoringDevice classCode="DEV" determinerCode="INSTANCE">
+        <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <manufacturerModelName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <softwareName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <asMaintainedEntity classCode="MNT">
+            <effectiveTime value="201316121830"/>
+            <maintainingPerson classCode="PSN" determinerCode="INSTANCE">
+                <name>
+                    <given>Test</given>
+                    <family>Test</family>
+                    <suffix>Test</suffix>
+                </name>
+            </maintainingPerson>
+        </asMaintainedEntity>
+    </assignedAuthoringDevice>
+    <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+        <id root="2.16.840.1.113883.19.4" extension="c266"/>
+        <name>Organisation</name>
+        <telecom use="WP" value="tel:0241.123456"/>
+        <addr>
+            <country>Deutschland</country>
+            <city>Düren</city>
+            <postalCode>52351</postalCode>
+            <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+        </addr>
+        <standardIndustryClassCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    </representedOrganization>
+</assignedAuthor>
+                            </author>
+                            <participant typeCode="PRF" contextControlCode="OP">
+<time value="1400"/>
+<awarenessCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<participantRole classCode="ROL">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <addr>
+        <country>Deutschland</country>
+        <city>Düren</city>
+        <postalCode>52351</postalCode>
+        <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+    </addr>
+    <telecom use="WP" value="tel:0241.123456"/>
+    <playingDevice classCode="DEV" determinerCode="INSTANCE">
+        <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <manufacturerModelName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <softwareName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    </playingDevice>
+    <scopingEntity classCode="ENT" determinerCode="INSTANCE">
+        <id root="2.16.840.1.113883.19.4" extension="c266"/>
+        <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <desc>Beschreibung scopingEntity</desc>
+    </scopingEntity>
+</participantRole>
+                            </participant>
+                            <reference typeCode="ELNK">
+<seperatableInd value="true"/>
+<externalDocument classCode="DOC" moodCode="EVN">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CE" code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <text>ExternalDocument Text</text>
+    <setId root="2.16.840.1.113883.19.4" extension="c266"/>
+    <versionNumber value="5"/>
+</externalDocument>
+                            </reference>
+                            <precondition typeCode="PRCN">
+<criterion classCode="OBS" moodCode="EVN.CRT">
+    <code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CE" code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <text>Criterion-Text</text>
+    <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ED">Criterion-Value</value>
+</criterion>
+                            </precondition>
+                        </supply>
+                    </entry>
+                </section>
+            </component>
+            <component typeCode="COMP" contextConductionInd="true">
+                <section classCode="DOCSECT" moodCode="EVN">
+                    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                    <text>Procedure</text>
+                    <confidentialityCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                    <languageCode code="de-DE"/>
+                    <subject typeCode="SBJ" contextControlCode="OP">
+                        <awarenessCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                        <relatedSubject classCode="PAT">
+                            <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <addr>
+<country>Deutschland</country>
+<city>Düren</city>
+<postalCode>52351</postalCode>
+<streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                            </addr>
+                            <telecom use="WP" value="tel:0241.123456"/>
+                            <subject classCode="PSN" determinerCode="INSTANCE">
+<name>
+    <given>Test</given>
+    <family>Test</family>
+    <suffix>Test</suffix>
+</name>
+                            </subject>
+                        </relatedSubject>
+                    </subject>
+                    <author typeCode="AUT" contextControlCode="OP">
+                        <functionCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                        <time value="201316121830"/>
+                        <assignedAuthor classCode="ASSIGNED">
+                            <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                            <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <addr>
+<country>Deutschland</country>
+<city>Düren</city>
+<postalCode>52351</postalCode>
+<streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                            </addr>
+                            <telecom use="WP" value="tel:0241.123456"/>
+                            <assignedAuthoringDevice classCode="DEV" determinerCode="INSTANCE">
+<code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<manufacturerModelName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<softwareName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<asMaintainedEntity classCode="MNT">
+    <effectiveTime value="201316121830"/>
+    <maintainingPerson classCode="PSN" determinerCode="INSTANCE">
+        <name>
+            <given>Test</given>
+            <family>Test</family>
+            <suffix>Test</suffix>
+        </name>
+    </maintainingPerson>
+</asMaintainedEntity>
+                            </assignedAuthoringDevice>
+                            <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+<id root="2.16.840.1.113883.19.4" extension="c266"/>
+<name>Organisation</name>
+<telecom use="WP" value="tel:0241.123456"/>
+<addr>
+    <country>Deutschland</country>
+    <city>Düren</city>
+    <postalCode>52351</postalCode>
+    <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+</addr>
+<standardIndustryClassCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            </representedOrganization>
+                        </assignedAuthor>
+                    </author>
+                    <informant typeCode="INF" contextControlCode="OP">
+                        <relatedEntity classCode="STD">
+                            <addr>
+<country>Deutschland</country>
+<city>Düren</city>
+<postalCode>52351</postalCode>
+<streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                            </addr>
+                            <telecom use="WP" value="tel:0241.123456"/>
+                            <effectiveTime value="201316121830"/>
+                            <relatedPerson classCode="PSN" determinerCode="INSTANCE">
+<name>
+    <given>Test</given>
+    <family>Test</family>
+    <suffix>Test</suffix>
+</name>
+                            </relatedPerson>
+                        </relatedEntity>
+                    </informant>
+                    <entry typeCode="COMP" contextConductionInd="true">
+                        <procedure classCode="PROC" moodCode="APT" negationInd="true">
+                            <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                            <code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CE" code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <text>Procedure</text>
+                            <statusCode code="ACTIVE" codeSystem=""/>
+                            <effectiveTime value="201415011300"/>
+                            <priorityCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <languageCode code="de-DE"/>
+                            <methodCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <approachSiteCode xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CE" code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <approachSiteCode xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CE" code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <specimen typeCode="SPC">
+<specimenRole classCode="SPEC">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <specimenPlayingEntity classCode="ENT" determinerCode="INSTANCE">
+        <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <quantity value="10" unit="ml"/>
+        <name>
+            <given>Test</given>
+            <family>Test</family>
+            <suffix>Test</suffix>
+        </name>
+        <desc>Beschreibung</desc>
+    </specimenPlayingEntity>
+</specimenRole>
+                            </specimen>
+                            <performer typeCode="PRF">
+<time value="1513"/>
+<modeCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<assignedEntity classCode="ASSIGNED">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <addr>
+        <country>Deutschland</country>
+        <city>Düren</city>
+        <postalCode>52351</postalCode>
+        <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+    </addr>
+    <telecom use="WP" value="tel:0241.123456"/>
+</assignedEntity>
+                            </performer>
+                            <author typeCode="AUT" contextControlCode="OP">
+<functionCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<time value="201316121830"/>
+<assignedAuthor classCode="ASSIGNED">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <addr>
+        <country>Deutschland</country>
+        <city>Düren</city>
+        <postalCode>52351</postalCode>
+        <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+    </addr>
+    <telecom use="WP" value="tel:0241.123456"/>
+    <assignedAuthoringDevice classCode="DEV" determinerCode="INSTANCE">
+        <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <manufacturerModelName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <softwareName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <asMaintainedEntity classCode="MNT">
+            <effectiveTime value="201316121830"/>
+            <maintainingPerson classCode="PSN" determinerCode="INSTANCE">
+                <name>
+                    <given>Test</given>
+                    <family>Test</family>
+                    <suffix>Test</suffix>
+                </name>
+            </maintainingPerson>
+        </asMaintainedEntity>
+    </assignedAuthoringDevice>
+    <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+        <id root="2.16.840.1.113883.19.4" extension="c266"/>
+        <name>Organisation</name>
+        <telecom use="WP" value="tel:0241.123456"/>
+        <addr>
+            <country>Deutschland</country>
+            <city>Düren</city>
+            <postalCode>52351</postalCode>
+            <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+        </addr>
+        <standardIndustryClassCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    </representedOrganization>
+</assignedAuthor>
+                            </author>
+                            <participant typeCode="PRF" contextControlCode="OP">
+<time value="1400"/>
+<awarenessCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<participantRole classCode="ROL">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <addr>
+        <country>Deutschland</country>
+        <city>Düren</city>
+        <postalCode>52351</postalCode>
+        <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+    </addr>
+    <telecom use="WP" value="tel:0241.123456"/>
+    <playingDevice classCode="DEV" determinerCode="INSTANCE">
+        <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <manufacturerModelName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <softwareName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    </playingDevice>
+    <scopingEntity classCode="ENT" determinerCode="INSTANCE">
+        <id root="2.16.840.1.113883.19.4" extension="c266"/>
+        <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <desc>Beschreibung scopingEntity</desc>
+    </scopingEntity>
+</participantRole>
+                            </participant>
+                            <reference typeCode="ELNK">
+<seperatableInd value="true"/>
+<externalDocument classCode="DOC" moodCode="EVN">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CE" code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <text>ExternalDocument Text</text>
+    <setId root="2.16.840.1.113883.19.4" extension="c266"/>
+    <versionNumber value="5"/>
+</externalDocument>
+                            </reference>
+                            <precondition typeCode="PRCN">
+<criterion classCode="OBS" moodCode="EVN.CRT">
+    <code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CE" code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <text>Criterion-Text</text>
+    <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ED">Criterion-Value</value>
+</criterion>
+                            </precondition>
+                        </procedure>
+                    </entry>
+                </section>
+            </component>
+            <component typeCode="COMP" contextConductionInd="true">
+                <section classCode="DOCSECT" moodCode="EVN">
+                    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                    <text>Encounter</text>
+                    <confidentialityCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                    <languageCode code="de-DE"/>
+                    <subject typeCode="SBJ" contextControlCode="OP">
+                        <awarenessCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                        <relatedSubject classCode="PAT">
+                            <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <addr>
+<country>Deutschland</country>
+<city>Düren</city>
+<postalCode>52351</postalCode>
+<streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                            </addr>
+                            <telecom use="WP" value="tel:0241.123456"/>
+                            <subject classCode="PSN" determinerCode="INSTANCE">
+<name>
+    <given>Test</given>
+    <family>Test</family>
+    <suffix>Test</suffix>
+</name>
+                            </subject>
+                        </relatedSubject>
+                    </subject>
+                    <author typeCode="AUT" contextControlCode="OP">
+                        <functionCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                        <time value="201316121830"/>
+                        <assignedAuthor classCode="ASSIGNED">
+                            <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                            <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <addr>
+<country>Deutschland</country>
+<city>Düren</city>
+<postalCode>52351</postalCode>
+<streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                            </addr>
+                            <telecom use="WP" value="tel:0241.123456"/>
+                            <assignedAuthoringDevice classCode="DEV" determinerCode="INSTANCE">
+<code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<manufacturerModelName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<softwareName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<asMaintainedEntity classCode="MNT">
+    <effectiveTime value="201316121830"/>
+    <maintainingPerson classCode="PSN" determinerCode="INSTANCE">
+        <name>
+            <given>Test</given>
+            <family>Test</family>
+            <suffix>Test</suffix>
+        </name>
+    </maintainingPerson>
+</asMaintainedEntity>
+                            </assignedAuthoringDevice>
+                            <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+<id root="2.16.840.1.113883.19.4" extension="c266"/>
+<name>Organisation</name>
+<telecom use="WP" value="tel:0241.123456"/>
+<addr>
+    <country>Deutschland</country>
+    <city>Düren</city>
+    <postalCode>52351</postalCode>
+    <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+</addr>
+<standardIndustryClassCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            </representedOrganization>
+                        </assignedAuthor>
+                    </author>
+                    <informant typeCode="INF" contextControlCode="OP">
+                        <relatedEntity classCode="STD">
+                            <addr>
+<country>Deutschland</country>
+<city>Düren</city>
+<postalCode>52351</postalCode>
+<streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                            </addr>
+                            <telecom use="WP" value="tel:0241.123456"/>
+                            <effectiveTime value="201316121830"/>
+                            <relatedPerson classCode="PSN" determinerCode="INSTANCE">
+<name>
+    <given>Test</given>
+    <family>Test</family>
+    <suffix>Test</suffix>
+</name>
+                            </relatedPerson>
+                        </relatedEntity>
+                    </informant>
+                    <entry typeCode="COMP" contextConductionInd="true">
+                        <encounter classCode="ENC" moodCode="APT">
+                            <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                            <code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CE" code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <text>Encounter</text>
+                            <statusCode code="ACTIVE" codeSystem=""/>
+                            <effectiveTime value="201415011300"/>
+                            <priorityCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <specimen typeCode="SPC">
+<specimenRole classCode="SPEC">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <specimenPlayingEntity classCode="ENT" determinerCode="INSTANCE">
+        <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <quantity value="10" unit="ml"/>
+        <name>
+            <given>Test</given>
+            <family>Test</family>
+            <suffix>Test</suffix>
+        </name>
+        <desc>Beschreibung</desc>
+    </specimenPlayingEntity>
+</specimenRole>
+                            </specimen>
+                            <performer typeCode="PRF">
+<time value="1513"/>
+<modeCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<assignedEntity classCode="ASSIGNED">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <addr>
+        <country>Deutschland</country>
+        <city>Düren</city>
+        <postalCode>52351</postalCode>
+        <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+    </addr>
+    <telecom use="WP" value="tel:0241.123456"/>
+</assignedEntity>
+                            </performer>
+                            <author typeCode="AUT" contextControlCode="OP">
+<functionCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<time value="201316121830"/>
+<assignedAuthor classCode="ASSIGNED">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <addr>
+        <country>Deutschland</country>
+        <city>Düren</city>
+        <postalCode>52351</postalCode>
+        <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+    </addr>
+    <telecom use="WP" value="tel:0241.123456"/>
+    <assignedAuthoringDevice classCode="DEV" determinerCode="INSTANCE">
+        <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <manufacturerModelName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <softwareName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <asMaintainedEntity classCode="MNT">
+            <effectiveTime value="201316121830"/>
+            <maintainingPerson classCode="PSN" determinerCode="INSTANCE">
+                <name>
+                    <given>Test</given>
+                    <family>Test</family>
+                    <suffix>Test</suffix>
+                </name>
+            </maintainingPerson>
+        </asMaintainedEntity>
+    </assignedAuthoringDevice>
+    <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+        <id root="2.16.840.1.113883.19.4" extension="c266"/>
+        <name>Organisation</name>
+        <telecom use="WP" value="tel:0241.123456"/>
+        <addr>
+            <country>Deutschland</country>
+            <city>Düren</city>
+            <postalCode>52351</postalCode>
+            <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+        </addr>
+        <standardIndustryClassCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    </representedOrganization>
+</assignedAuthor>
+                            </author>
+                            <participant typeCode="PRF" contextControlCode="OP">
+<time value="1400"/>
+<awarenessCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<participantRole classCode="ROL">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <addr>
+        <country>Deutschland</country>
+        <city>Düren</city>
+        <postalCode>52351</postalCode>
+        <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+    </addr>
+    <telecom use="WP" value="tel:0241.123456"/>
+    <playingDevice classCode="DEV" determinerCode="INSTANCE">
+        <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <manufacturerModelName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <softwareName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    </playingDevice>
+    <scopingEntity classCode="ENT" determinerCode="INSTANCE">
+        <id root="2.16.840.1.113883.19.4" extension="c266"/>
+        <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <desc>Beschreibung scopingEntity</desc>
+    </scopingEntity>
+</participantRole>
+                            </participant>
+                            <reference typeCode="ELNK">
+<seperatableInd value="true"/>
+<externalDocument classCode="DOC" moodCode="EVN">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CE" code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <text>ExternalDocument Text</text>
+    <setId root="2.16.840.1.113883.19.4" extension="c266"/>
+    <versionNumber value="5"/>
+</externalDocument>
+                            </reference>
+                            <precondition typeCode="PRCN">
+<criterion classCode="OBS" moodCode="EVN.CRT">
+    <code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CE" code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <text>Criterion-Text</text>
+    <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ED">Criterion-Value</value>
+</criterion>
+                            </precondition>
+                        </encounter>
+                    </entry>
+                </section>
+            </component>
+            <component typeCode="COMP" contextConductionInd="true">
+                <section classCode="DOCSECT" moodCode="EVN">
+                    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                    <text>Organizer</text>
+                    <confidentialityCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                    <languageCode code="de-DE"/>
+                    <subject typeCode="SBJ" contextControlCode="OP">
+                        <awarenessCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                        <relatedSubject classCode="PAT">
+                            <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <addr>
+<country>Deutschland</country>
+<city>Düren</city>
+<postalCode>52351</postalCode>
+<streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                            </addr>
+                            <telecom use="WP" value="tel:0241.123456"/>
+                            <subject classCode="PSN" determinerCode="INSTANCE">
+<name>
+    <given>Test</given>
+    <family>Test</family>
+    <suffix>Test</suffix>
+</name>
+                            </subject>
+                        </relatedSubject>
+                    </subject>
+                    <author typeCode="AUT" contextControlCode="OP">
+                        <functionCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                        <time value="201316121830"/>
+                        <assignedAuthor classCode="ASSIGNED">
+                            <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                            <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <addr>
+<country>Deutschland</country>
+<city>Düren</city>
+<postalCode>52351</postalCode>
+<streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                            </addr>
+                            <telecom use="WP" value="tel:0241.123456"/>
+                            <assignedAuthoringDevice classCode="DEV" determinerCode="INSTANCE">
+<code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<manufacturerModelName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<softwareName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<asMaintainedEntity classCode="MNT">
+    <effectiveTime value="201316121830"/>
+    <maintainingPerson classCode="PSN" determinerCode="INSTANCE">
+        <name>
+            <given>Test</given>
+            <family>Test</family>
+            <suffix>Test</suffix>
+        </name>
+    </maintainingPerson>
+</asMaintainedEntity>
+                            </assignedAuthoringDevice>
+                            <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+<id root="2.16.840.1.113883.19.4" extension="c266"/>
+<name>Organisation</name>
+<telecom use="WP" value="tel:0241.123456"/>
+<addr>
+    <country>Deutschland</country>
+    <city>Düren</city>
+    <postalCode>52351</postalCode>
+    <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+</addr>
+<standardIndustryClassCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            </representedOrganization>
+                        </assignedAuthor>
+                    </author>
+                    <informant typeCode="INF" contextControlCode="OP">
+                        <relatedEntity classCode="STD">
+                            <addr>
+<country>Deutschland</country>
+<city>Düren</city>
+<postalCode>52351</postalCode>
+<streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                            </addr>
+                            <telecom use="WP" value="tel:0241.123456"/>
+                            <effectiveTime value="201316121830"/>
+                            <relatedPerson classCode="PSN" determinerCode="INSTANCE">
+<name>
+    <given>Test</given>
+    <family>Test</family>
+    <suffix>Test</suffix>
+</name>
+                            </relatedPerson>
+                        </relatedEntity>
+                    </informant>
+                    <entry typeCode="COMP" contextConductionInd="true">
+                        <organizer classCode="BATTERY" moodCode="EVN">
+                            <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                            <code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CE" code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <statusCode code="ACTIVE" codeSystem=""/>
+                            <effectiveTime value="201415011300"/>
+                            <specimen typeCode="SPC">
+<specimenRole classCode="SPEC">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <specimenPlayingEntity classCode="ENT" determinerCode="INSTANCE">
+        <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <quantity value="10" unit="ml"/>
+        <name>
+            <given>Test</given>
+            <family>Test</family>
+            <suffix>Test</suffix>
+        </name>
+        <desc>Beschreibung</desc>
+    </specimenPlayingEntity>
+</specimenRole>
+                            </specimen>
+                            <performer typeCode="PRF">
+<time value="1513"/>
+<modeCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<assignedEntity classCode="ASSIGNED">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <addr>
+        <country>Deutschland</country>
+        <city>Düren</city>
+        <postalCode>52351</postalCode>
+        <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+    </addr>
+    <telecom use="WP" value="tel:0241.123456"/>
+</assignedEntity>
+                            </performer>
+                            <author typeCode="AUT" contextControlCode="OP">
+<functionCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<time value="201316121830"/>
+<assignedAuthor classCode="ASSIGNED">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <addr>
+        <country>Deutschland</country>
+        <city>Düren</city>
+        <postalCode>52351</postalCode>
+        <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+    </addr>
+    <telecom use="WP" value="tel:0241.123456"/>
+    <assignedAuthoringDevice classCode="DEV" determinerCode="INSTANCE">
+        <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <manufacturerModelName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <softwareName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <asMaintainedEntity classCode="MNT">
+            <effectiveTime value="201316121830"/>
+            <maintainingPerson classCode="PSN" determinerCode="INSTANCE">
+                <name>
+                    <given>Test</given>
+                    <family>Test</family>
+                    <suffix>Test</suffix>
+                </name>
+            </maintainingPerson>
+        </asMaintainedEntity>
+    </assignedAuthoringDevice>
+    <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+        <id root="2.16.840.1.113883.19.4" extension="c266"/>
+        <name>Organisation</name>
+        <telecom use="WP" value="tel:0241.123456"/>
+        <addr>
+            <country>Deutschland</country>
+            <city>Düren</city>
+            <postalCode>52351</postalCode>
+            <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+        </addr>
+        <standardIndustryClassCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    </representedOrganization>
+</assignedAuthor>
+                            </author>
+                            <participant typeCode="PRF" contextControlCode="OP">
+<time value="1400"/>
+<awarenessCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<participantRole classCode="ROL">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <addr>
+        <country>Deutschland</country>
+        <city>Düren</city>
+        <postalCode>52351</postalCode>
+        <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+    </addr>
+    <telecom use="WP" value="tel:0241.123456"/>
+    <playingDevice classCode="DEV" determinerCode="INSTANCE">
+        <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <manufacturerModelName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <softwareName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    </playingDevice>
+    <scopingEntity classCode="ENT" determinerCode="INSTANCE">
+        <id root="2.16.840.1.113883.19.4" extension="c266"/>
+        <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <desc>Beschreibung scopingEntity</desc>
+    </scopingEntity>
+</participantRole>
+                            </participant>
+                            <reference typeCode="ELNK">
+<seperatableInd value="true"/>
+<externalDocument classCode="DOC" moodCode="EVN">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CE" code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <text>ExternalDocument Text</text>
+    <setId root="2.16.840.1.113883.19.4" extension="c266"/>
+    <versionNumber value="5"/>
+</externalDocument>
+                            </reference>
+                            <precondition typeCode="PRCN">
+<criterion classCode="OBS" moodCode="EVN.CRT">
+    <code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CE" code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <text>Criterion-Text</text>
+    <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ED">Criterion-Value</value>
+</criterion>
+                            </precondition>
+                            <component typeCode="COMP" contextConductionInd="true">
+<sequenceNumber value="5"/>
+<seperatableInd value="true"/>
+<encounter classCode="ENC" moodCode="APT">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CE" code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <text>Encounter</text>
+    <statusCode code="ACTIVE" codeSystem=""/>
+    <effectiveTime value="201415011300"/>
+    <priorityCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <specimen typeCode="SPC">
+        <specimenRole classCode="SPEC">
+            <id root="2.16.840.1.113883.19.4" extension="c266"/>
+            <specimenPlayingEntity classCode="ENT" determinerCode="INSTANCE">
+                <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                <quantity value="10" unit="ml"/>
+                <name>
+                    <given>Test</given>
+                    <family>Test</family>
+                    <suffix>Test</suffix>
+                </name>
+                <desc>Beschreibung</desc>
+            </specimenPlayingEntity>
+        </specimenRole>
+    </specimen>
+    <performer typeCode="PRF">
+        <time value="1513"/>
+        <modeCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <assignedEntity classCode="ASSIGNED">
+            <id root="2.16.840.1.113883.19.4" extension="c266"/>
+            <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+            <addr>
+                <country>Deutschland</country>
+                <city>Düren</city>
+                <postalCode>52351</postalCode>
+                <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+            </addr>
+            <telecom use="WP" value="tel:0241.123456"/>
+        </assignedEntity>
+    </performer>
+    <author typeCode="AUT" contextControlCode="OP">
+        <functionCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <time value="201316121830"/>
+        <assignedAuthor classCode="ASSIGNED">
+            <id root="2.16.840.1.113883.19.4" extension="c266"/>
+            <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+            <addr>
+                <country>Deutschland</country>
+                <city>Düren</city>
+                <postalCode>52351</postalCode>
+                <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+            </addr>
+            <telecom use="WP" value="tel:0241.123456"/>
+            <assignedAuthoringDevice classCode="DEV" determinerCode="INSTANCE">
+                <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                <manufacturerModelName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                <softwareName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                <asMaintainedEntity classCode="MNT">
+                    <effectiveTime value="201316121830"/>
+                    <maintainingPerson classCode="PSN" determinerCode="INSTANCE">
+                        <name>
+                            <given>Test</given>
+                            <family>Test</family>
+                            <suffix>Test</suffix>
+                        </name>
+                    </maintainingPerson>
+                </asMaintainedEntity>
+            </assignedAuthoringDevice>
+            <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+                <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                <name>Organisation</name>
+                <telecom use="WP" value="tel:0241.123456"/>
+                <addr>
+                    <country>Deutschland</country>
+                    <city>Düren</city>
+                    <postalCode>52351</postalCode>
+                    <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                </addr>
+                <standardIndustryClassCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+            </representedOrganization>
+        </assignedAuthor>
+    </author>
+    <participant typeCode="PRF" contextControlCode="OP">
+        <time value="1400"/>
+        <awarenessCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <participantRole classCode="ROL">
+            <id root="2.16.840.1.113883.19.4" extension="c266"/>
+            <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+            <addr>
+                <country>Deutschland</country>
+                <city>Düren</city>
+                <postalCode>52351</postalCode>
+                <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+            </addr>
+            <telecom use="WP" value="tel:0241.123456"/>
+            <playingDevice classCode="DEV" determinerCode="INSTANCE">
+                <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                <manufacturerModelName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                <softwareName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+            </playingDevice>
+            <scopingEntity classCode="ENT" determinerCode="INSTANCE">
+                <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                <desc>Beschreibung scopingEntity</desc>
+            </scopingEntity>
+        </participantRole>
+    </participant>
+    <reference typeCode="ELNK">
+        <seperatableInd value="true"/>
+        <externalDocument classCode="DOC" moodCode="EVN">
+            <id root="2.16.840.1.113883.19.4" extension="c266"/>
+            <code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CE" code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+            <text>ExternalDocument Text</text>
+            <setId root="2.16.840.1.113883.19.4" extension="c266"/>
+            <versionNumber value="5"/>
+        </externalDocument>
+    </reference>
+    <precondition typeCode="PRCN">
+        <criterion classCode="OBS" moodCode="EVN.CRT">
+            <code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CE" code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+            <text>Criterion-Text</text>
+            <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ED">Criterion-Value</value>
+        </criterion>
+    </precondition>
+</encounter>
+                            </component>
+                        </organizer>
+                    </entry>
+                </section>
+            </component>
+            <component typeCode="COMP" contextConductionInd="true">
+                <section classCode="DOCSECT" moodCode="EVN">
+                    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                    <text>Encounter</text>
+                    <confidentialityCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                    <languageCode code="de-DE"/>
+                    <subject typeCode="SBJ" contextControlCode="OP">
+                        <awarenessCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                        <relatedSubject classCode="PAT">
+                            <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <addr>
+<country>Deutschland</country>
+<city>Düren</city>
+<postalCode>52351</postalCode>
+<streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                            </addr>
+                            <telecom use="WP" value="tel:0241.123456"/>
+                            <subject classCode="PSN" determinerCode="INSTANCE">
+<name>
+    <given>Test</given>
+    <family>Test</family>
+    <suffix>Test</suffix>
+</name>
+                            </subject>
+                        </relatedSubject>
+                    </subject>
+                    <author typeCode="AUT" contextControlCode="OP">
+                        <functionCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                        <time value="201316121830"/>
+                        <assignedAuthor classCode="ASSIGNED">
+                            <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                            <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <addr>
+<country>Deutschland</country>
+<city>Düren</city>
+<postalCode>52351</postalCode>
+<streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                            </addr>
+                            <telecom use="WP" value="tel:0241.123456"/>
+                            <assignedAuthoringDevice classCode="DEV" determinerCode="INSTANCE">
+<code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<manufacturerModelName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<softwareName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<asMaintainedEntity classCode="MNT">
+    <effectiveTime value="201316121830"/>
+    <maintainingPerson classCode="PSN" determinerCode="INSTANCE">
+        <name>
+            <given>Test</given>
+            <family>Test</family>
+            <suffix>Test</suffix>
+        </name>
+    </maintainingPerson>
+</asMaintainedEntity>
+                            </assignedAuthoringDevice>
+                            <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+<id root="2.16.840.1.113883.19.4" extension="c266"/>
+<name>Organisation</name>
+<telecom use="WP" value="tel:0241.123456"/>
+<addr>
+    <country>Deutschland</country>
+    <city>Düren</city>
+    <postalCode>52351</postalCode>
+    <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+</addr>
+<standardIndustryClassCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            </representedOrganization>
+                        </assignedAuthor>
+                    </author>
+                    <informant typeCode="INF" contextControlCode="OP">
+                        <relatedEntity classCode="STD">
+                            <addr>
+<country>Deutschland</country>
+<city>Düren</city>
+<postalCode>52351</postalCode>
+<streetAddressLine>Kölnerstr. 95</streetAddressLine>
+                            </addr>
+                            <telecom use="WP" value="tel:0241.123456"/>
+                            <effectiveTime value="201316121830"/>
+                            <relatedPerson classCode="PSN" determinerCode="INSTANCE">
+<name>
+    <given>Test</given>
+    <family>Test</family>
+    <suffix>Test</suffix>
+</name>
+                            </relatedPerson>
+                        </relatedEntity>
+                    </informant>
+                    <entry typeCode="COMP" contextConductionInd="true">
+                        <act classCode="ACCM" moodCode="APT">
+                            <id root="2.16.840.1.113883.19.4" extension="c266"/>
+                            <code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CE" code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <text>Act</text>
+                            <statusCode code="ACTIVE" codeSystem=""/>
+                            <effectiveTime value="201415011300"/>
+                            <priorityCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+                            <specimen typeCode="SPC">
+<specimenRole classCode="SPEC">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <specimenPlayingEntity classCode="ENT" determinerCode="INSTANCE">
+        <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <quantity value="10" unit="ml"/>
+        <name>
+            <given>Test</given>
+            <family>Test</family>
+            <suffix>Test</suffix>
+        </name>
+        <desc>Beschreibung</desc>
+    </specimenPlayingEntity>
+</specimenRole>
+                            </specimen>
+                            <performer typeCode="PRF">
+<time value="1513"/>
+<modeCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<assignedEntity classCode="ASSIGNED">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <addr>
+        <country>Deutschland</country>
+        <city>Düren</city>
+        <postalCode>52351</postalCode>
+        <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+    </addr>
+    <telecom use="WP" value="tel:0241.123456"/>
+</assignedEntity>
+                            </performer>
+                            <author typeCode="AUT" contextControlCode="OP">
+<functionCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<time value="201316121830"/>
+<assignedAuthor classCode="ASSIGNED">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <addr>
+        <country>Deutschland</country>
+        <city>Düren</city>
+        <postalCode>52351</postalCode>
+        <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+    </addr>
+    <telecom use="WP" value="tel:0241.123456"/>
+    <assignedAuthoringDevice classCode="DEV" determinerCode="INSTANCE">
+        <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <manufacturerModelName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <softwareName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <asMaintainedEntity classCode="MNT">
+            <effectiveTime value="201316121830"/>
+            <maintainingPerson classCode="PSN" determinerCode="INSTANCE">
+                <name>
+                    <given>Test</given>
+                    <family>Test</family>
+                    <suffix>Test</suffix>
+                </name>
+            </maintainingPerson>
+        </asMaintainedEntity>
+    </assignedAuthoringDevice>
+    <representedOrganization classCode="ORG" determinerCode="INSTANCE">
+        <id root="2.16.840.1.113883.19.4" extension="c266"/>
+        <name>Organisation</name>
+        <telecom use="WP" value="tel:0241.123456"/>
+        <addr>
+            <country>Deutschland</country>
+            <city>Düren</city>
+            <postalCode>52351</postalCode>
+            <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+        </addr>
+        <standardIndustryClassCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    </representedOrganization>
+</assignedAuthor>
+                            </author>
+                            <participant typeCode="PRF" contextControlCode="OP">
+<time value="1400"/>
+<awarenessCode code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+<participantRole classCode="ROL">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <addr>
+        <country>Deutschland</country>
+        <city>Düren</city>
+        <postalCode>52351</postalCode>
+        <streetAddressLine>Kölnerstr. 95</streetAddressLine>
+    </addr>
+    <telecom use="WP" value="tel:0241.123456"/>
+    <playingDevice classCode="DEV" determinerCode="INSTANCE">
+        <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <manufacturerModelName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <softwareName code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    </playingDevice>
+    <scopingEntity classCode="ENT" determinerCode="INSTANCE">
+        <id root="2.16.840.1.113883.19.4" extension="c266"/>
+        <code code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+        <desc>Beschreibung scopingEntity</desc>
+    </scopingEntity>
+</participantRole>
+                            </participant>
+                            <reference typeCode="ELNK">
+<seperatableInd value="true"/>
+<externalDocument classCode="DOC" moodCode="EVN">
+    <id root="2.16.840.1.113883.19.4" extension="c266"/>
+    <code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CE" code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <text>ExternalDocument Text</text>
+    <setId root="2.16.840.1.113883.19.4" extension="c266"/>
+    <versionNumber value="5"/>
+</externalDocument>
+                            </reference>
+                            <precondition typeCode="PRCN">
+<criterion classCode="OBS" moodCode="EVN.CRT">
+    <code xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="CE" code="GIM" codeSystem="2.16.840.1.113883.5.10588" displayName="General internal medicine clinic"/>
+    <text>Criterion-Text</text>
+    <value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="ED">Criterion-Value</value>
+</criterion>
+                            </precondition>
+                        </act>
+                    </entry>
+                </section>
+            </component>
+        </structuredBody>
+    </component>
+</ClinicalDocument>
