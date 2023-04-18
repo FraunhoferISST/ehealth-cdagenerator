@@ -17,9 +17,6 @@ import javax.xml.validation.Schema;
 import javax.xml.validation.SchemaFactory;
 import javax.xml.validation.Validator;
 
-import org.apache.log4j.LogManager;
-import org.apache.log4j.Logger;
-import org.apache.log4j.PropertyConfigurator;
 import org.hl7.v3.cda.*;
 import org.xml.sax.SAXException;
 
@@ -116,6 +113,10 @@ import de.fhg.isst.cda.classes.SubjectPerson;
 import de.fhg.isst.cda.classes.Telecom;
 import de.fhg.isst.cda.exceptions.MissingAttributeException;
 import de.fhg.isst.cda.exceptions.MissingNodeException;
+import java.io.Serializable;
+import java.io.StringWriter;
+import org.w3c.dom.CDATASection;
+import org.w3c.dom.Element;
 
 // TODO: Auto-generated Javadoc
 /**
@@ -129,22 +130,13 @@ public class CDAService {
 	/** The factory. */
 	private ObjectFactory factory;
 
-	private Logger logger;
-
 	/**
 	 * Instantiates a new CDA Service.
 	 */
 	public CDAService() {
-		this.logger = LogManager.getLogger(CDAService.class.getName());
-		this.log4j();
-	}
-
-	private void log4j() {
-
-		PropertyConfigurator.configureAndWatch("log4j.properties");
 		this.factory = new ObjectFactory();
 	}
-
+	
 	/**
 	 * Save.
 	 * 
@@ -175,6 +167,43 @@ public class CDAService {
 		marshaller.marshal(saveDoc, os);
 		os.close();
 	}
+        /**
+         * Save.
+         * 
+         * @param file
+         * @param mapDocument
+         * @throws MissingAttributeException
+         * @throws MissingNodeException
+         * @throws FileNotFoundException
+         * @throws JAXBException
+         * @throws IOException 
+         */
+        public void save(File file, CDADocument mapDocument)throws MissingAttributeException, MissingNodeException, FileNotFoundException,
+			JAXBException, IOException {
+		POCDMT000040ClinicalDocument saveDoc = this.generate(mapDocument);
+                
+		OutputStream os = new FileOutputStream(file);
+		JAXBContext jaxbcontext = JAXBContext.newInstance(POCDMT000040ClinicalDocument.class);
+		Marshaller marshaller = jaxbcontext.createMarshaller();
+		marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+
+		marshaller.marshal(saveDoc, os);
+		os.close();
+        }
+		
+		public String getCdaString(CDADocument mapDocument)throws MissingAttributeException, MissingNodeException, FileNotFoundException,
+			JAXBException, IOException {
+			POCDMT000040ClinicalDocument saveDoc = this.generate(mapDocument);
+
+			StringWriter writer = new StringWriter();
+			JAXBContext jaxbcontext = JAXBContext.newInstance(POCDMT000040ClinicalDocument.class);
+			Marshaller marshaller = jaxbcontext.createMarshaller();
+			marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
+
+			marshaller.marshal(saveDoc, writer);
+			
+			return writer.toString();
+        }
 
 	/**
 	 * Prints the.
@@ -212,7 +241,6 @@ public class CDAService {
 	 * @return true, if successful
 	 */
 	public boolean validate(String xsdPath, String xmlPath) {
-		this.logger.trace("Entering CDA Validation");
 		boolean state = false;
 		try {
 			SchemaFactory factory = SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
@@ -221,10 +249,8 @@ public class CDAService {
 			validator.validate(new StreamSource(new File(xmlPath)));
 			state = true;
 		} catch (SAXException | IOException e) {
-			this.logger.error("CDA Validation Error");
-			this.logger.error(e.getMessage());
+			e.printStackTrace();
 		}
-		this.logger.trace("Exiting CDA Validation");
 		return state;
 	}
 
@@ -3287,6 +3313,13 @@ public class CDAService {
 			}
 		}
 
+					if (!mapObservation.getTemplateId().isEmpty()){
+						for (ID templateId : mapObservation.getTemplateId())
+						{
+							cdaObservation.getTemplateId().add(createCDAId(templateId));
+						}
+					}
+
 		if (mapObservation.getCode() != null) {
 			cdaObservation.setCode(this.createCDACE(mapObservation.getCode()));
 		}
@@ -3334,10 +3367,15 @@ public class CDAService {
 		}
 
 		if (mapObservation.getValue()!=null) {
-			
 			if (mapObservation.getValue() instanceof String) {
 				ED mapObservationValue = factory.createED();
-				mapObservationValue.getContent().add((String)mapObservation.getValue());	
+				String value = (String) mapObservation.getValue();
+				if(value.equals("CDA_CONSENT_SAML"))
+				{
+					mapObservationValue.setMediaType("text/xml");
+					mapObservationValue.setRepresentation(BinaryDataEncoding.TXT);
+				}
+				mapObservationValue.getContent().add(value);	
 				cdaObservation.getValue().add(mapObservationValue);
 			}
 			else if (mapObservation.getValue() instanceof Code) {
