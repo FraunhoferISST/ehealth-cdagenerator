@@ -2,6 +2,7 @@ package de.fhg.isst.cda.choices.clinicalstatements;
 
 import java.math.BigInteger;
 import java.util.ArrayList;
+import java.util.List;
 
 import de.fhg.isst.cda.classes.ClinicalStatement;
 import de.fhg.isst.cda.classes.Code;
@@ -25,6 +26,9 @@ public class Observation extends ClinicalStatement {
 	
 	/** The ids. */
 	private ArrayList<ID> ids;
+
+	/** The template ids */
+	private List<ID> templateId;
 	
 	/** The code. */
 	private Code code;
@@ -111,10 +115,10 @@ public class Observation extends ClinicalStatement {
 	public void setMoodCode(XActMoodDocumentObservation moodCode) {
 		this.moodCode = moodCode;
 	}
-	
+
 	/**
 	 * Gets the ids.
-	 * 
+	 *
 	 * @return the ids
 	 */
 	public ArrayList<ID> getIds() {
@@ -122,6 +126,13 @@ public class Observation extends ClinicalStatement {
 			this.ids = new ArrayList<ID>();
 		}
 		return ids;
+	}
+
+	public List<ID> getTemplateId() {
+		if (templateId==null){
+			templateId = new ArrayList<>();
+		}
+		return templateId;
 	}
 	
 	/**
